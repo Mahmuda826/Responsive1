@@ -4,9 +4,17 @@
     
 }
 .menu{
+    
+    list-style: none;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
+    
 }
 .menu>a{
   text-decoration: none;
+}
   .hero-section{
     display: flex;
     flex-direction: column;
@@ -14,7 +22,8 @@
     align-items: center;
     gap: 20px;
   }
-}
+  
+
   .brand{
     display: flex;
     flex-direction: column;
@@ -29,6 +38,19 @@
     color: white;
     
   }
+  /*combination image section*/
+  .combinaton{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    
+  }
   
 @media screen and (max-width: 480px) {
       .nav_bar{
@@ -41,4 +63,10 @@
       .btn{
         color: blue;
       }
-  }   
+      
+      .combinaton{
+        flex-direction: column;
+
+      }
+      
+  }
