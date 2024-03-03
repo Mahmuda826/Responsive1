@@ -12,6 +12,9 @@
     gap: 20px;
     
 }
+.menu>a{
+  text-decoration: none;
+}
   .hero-section{
     display: flex;
     flex-direction: column;
@@ -34,14 +37,6 @@
     
   }
   
-  .combination{
-   display: inline-flex;
-   justify-content: center;
-   align-items: center;
-  }
-.menu>a{
-    text-decoration: none;
-}
 @media screen and (max-width: 480px) {
       .nav_bar{
         flex-direction: column;
