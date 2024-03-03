@@ -12,6 +12,33 @@
     gap: 20px;
     
 }
+  .hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    border: 2px solid ;
+    border-radius: 5px;
+    background-color:red;
+    padding: 5px;
+    color: white;
+    
+  }
+  
+  .combination{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+  }
 .menu>a{
     text-decoration: none;
 }
@@ -22,5 +49,8 @@
       }
       .logo h1{
         text-align: center;
+      }
+      .btn{
+        color: blue;
       }
   }
