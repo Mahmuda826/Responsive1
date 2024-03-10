@@ -51,6 +51,33 @@
     gap: 30px;
     
   }
+  .super-easy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  /*some-fact*/
+  .some-fact{
+    justify-content: center;
+    align-items: center;
+  }
+  /*card of footer*/
+  .card{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+
+
+  }
+  .box{
+    border: 2px solid yellowgreen;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    
+
+  }
   
 @media screen and (max-width: 480px) {
       .nav_bar{
@@ -67,6 +94,9 @@
       .combinaton{
         flex-direction: column;
 
+      }
+      .super-easy{
+        flex-direction: column;
       }
       
   }
